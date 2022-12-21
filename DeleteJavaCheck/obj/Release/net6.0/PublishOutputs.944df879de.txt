@@ -1,6 +1,0 @@
-G:\Codes\C#\DeleteJavaCheck\DeleteJavaCheck\bin\Release\net6.0\publish\location.txt
-G:\Codes\C#\DeleteJavaCheck\DeleteJavaCheck\bin\Release\net6.0\publish\DeleteJavaCheck.exe
-G:\Codes\C#\DeleteJavaCheck\DeleteJavaCheck\bin\Release\net6.0\publish\DeleteJavaCheck.dll
-G:\Codes\C#\DeleteJavaCheck\DeleteJavaCheck\bin\Release\net6.0\publish\DeleteJavaCheck.deps.json
-G:\Codes\C#\DeleteJavaCheck\DeleteJavaCheck\bin\Release\net6.0\publish\DeleteJavaCheck.runtimeconfig.json
-G:\Codes\C#\DeleteJavaCheck\DeleteJavaCheck\bin\Release\net6.0\publish\DeleteJavaCheck.pdb
