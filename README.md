@@ -34,8 +34,7 @@ This application was written in .NET 6.0. Please ensure you have that installed 
 Download the .zip file found in the latest release, and extract it somewhere memorable. This app will only run with manual execution, so you'll be required to run it after every update.
 
 ## Modifying location.txt
-Add the directory of where the launcher is installed. Microsoft Store will have their location already in the file, so copy and paste into Line 7, replacing `[USERNAME]` with your name.  
-For the old launcher location, I'm unaware of where the default location is, but I'll update the documentation once I have a response.
+Add the directory of where the launcher is installed. Microsoft Store will have their location already in the file, so copy and paste into Line 7, replacing `[USERNAME]` with your name.
 
 ## Execution
 Run `DeleteJavaCheck.exe`, and if there's no issues, the file should be deleted  
@@ -48,8 +47,6 @@ Note: This program won't say what the errors are (I'm working on this), but ther
 Another thing to note is that this file will most likely be permanently deleted, so remember to run the right version of Java on newer installations
 
 # Future updates
-- Will scan both launchers automatically, provided that they are in the default location
-
-# Updating
-This doesn't have an auto updater, but there will be an update at the end of every week, so until that's implemented, check back here every once in a while.  
-Most updates won't be QOL (Quality of Life) updates, but mainly just error handling or improving the code, so it's not important to be on the latest release
+- Improved error handling (1.0.0.3)
+- Will scan both launchers automatically, provided that they are in the default location (1.0.1)
+  - A text file will be provided to those who have their launcher in another location
