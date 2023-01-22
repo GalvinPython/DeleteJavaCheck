@@ -1,30 +1,6 @@
 # DeleteJavaCheck
 **JavaCheck.jar** is a Java file shipped with the Minecraft launcher. This isn't problematic for most, but those that prefer to use newer versions of Java, or mods that are incapable with older versions of Java, can't modify their profiles to use the version that isn't defaulted for that Java version.  
-Thankfully, it's easy to bypass this by deleting this file, but is reinstalled after every update, so in the long run, this could be a useful application, especially for those rocking the beta launcher.  
-For those curious, the JavaCheck.java is:
-```java
-public class JavaCheck {
-   private static final String[] keys = new String[]{"java.version"};
-
-   public static void main(String[] var0) {
-      byte var1 = 0;
-      String[] var2 = keys;
-      int var3 = var2.length;
-
-      for(int var4 = 0; var4 < var3; ++var4) {
-         String var5 = var2[var4];
-         String var6 = System.getProperty(var5);
-         if (var6 != null) {
-            System.out.println(var5 + "=" + var6);
-         } else {
-            var1 = 1;
-         }
-      }
-
-      System.exit(var1);
-   }
-}
-```
+Thankfully, it's easy to bypass this by deleting this file, but is reinstalled after every update, so in the long run, this could be a useful application, especially for those rocking the beta launcher.
 
 # Requirements
 This application was written in .NET 6.0. Please ensure you have that installed before running
