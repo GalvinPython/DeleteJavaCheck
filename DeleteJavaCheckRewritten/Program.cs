@@ -1,9 +1,8 @@
 ﻿/// <summary>
 /// DeleteJavaCheck-rewritten is an improved version from my original DeleteJavaCheck program with more automation
-/// Current Version: 2.0
+/// Current Version: 2.0.1
 /// Changelog:
-/// - Custom installs are kept in the app's settings; no more files needed
-/// - Checks all possible installations automatically
+/// - Rereleased V2.0, but with the missing packages
 /// </summary>
 
 using System;
@@ -100,7 +99,7 @@ namespace DeleteJavaCheck_Rewritten
             Console.WriteLine("\n");
             WriteSection("Checking Old Launcher", "=".ToCharArray()[0]);
             string targetDir = @"C:\Program Files (x86)\Minecraft Launcher\game";
-            if(Directory.Exists(targetDir))
+            if (Directory.Exists(targetDir))
             {
                 Console.WriteLine("Java Launcher Exists!");
                 targetDir += targetFile;
